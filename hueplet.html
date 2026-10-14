@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>FRP BYPASS TECNO</title>
+    <style>
+        button {
+            width: 100%;
+            padding: 20px;
+            margin: 10px 0;
+            font-size: 24px;
+            background-color: green;
+            color: white;
+            border: none;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 style="text-align:center;">TECNO SETTINGS LAUNCHER</h1>
+    
+    <!-- Ссылка 1: Самый глубокий системный вызов настроек -->
+    <a href="intent:#Intent;action=android.settings.SETTINGS;end"><button>1. ОТКРЫТЬ НАСТРОЙКИ (Вариант 1)</button></a>
+    
+    <!-- Ссылка 2: Альтернативный вызов главного меню -->
+    <a href="intent://com.android.settings/#Intent;scheme=android-app;end"><button>2. ОТКРЫТЬ НАСТРОЙКИ (Вариант 2)</button></a>
+
+    <!-- Ссылка 3: Вызов встроенного приложения XShare -->
+    <a href="intent:#Intent;package=com.transsion.XShare;end"><button>3. ОТКРЫТЬ XSHARE</button></a>
+
+</body>
+</html>
